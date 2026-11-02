@@ -1,0 +1,7 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {"name":"Flappy: Webcam", "type":"debugpy", "request":"launch", "program":"${workspaceFolder}/main.py", "console":"integratedTerminal", "cwd":"${workspaceFolder}"},
+    {"name":"Flappy: Keyboard only", "type":"debugpy", "request":"launch", "program":"${workspaceFolder}/main.py", "console":"integratedTerminal", "cwd":"${workspaceFolder}", "args":["--no-camera"]}
+  ]
+}
